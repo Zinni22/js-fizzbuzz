@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    background-color: rgb(18, 51, 135);
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+main ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

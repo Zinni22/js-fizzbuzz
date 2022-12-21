@@ -29,12 +29,15 @@ for (let index = 1; index <= 100; index++) {
     
     if( index % 3 == 0 && index % 5 == 0 ){
         mioLi.innerHTML = 'FizzBuzz';
+        mioLi.style.backgroundColor = 'lightcoral'
     }
     else if( index % 3 == 0){
         mioLi.innerHTML = 'Fizz';
+        mioLi.style.backgroundColor = 'green'
     }
     else if( index % 5 == 0){
         mioLi.innerHTML = 'Buzz';
+        mioLi.style.backgroundColor = 'yellow'
     }
 
 
